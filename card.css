@@ -1,1 +1,56 @@
-/*# sourceMappingURL=card.css.map */
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Open+Sans:wght@300;500&family=Pacifico&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("/images/back.png") no-repeat center center/cover;
+}
+
+.card {
+  width: 70%;
+  max-width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  padding: 50px 0;
+  border-radius: 10pt;
+  -webkit-backdrop-filter: blur(25px);
+          backdrop-filter: blur(25px);
+}
+.card h1 {
+  margin: 35px 0;
+}
+.card p {
+  margin: 0 0 25px;
+}
+.card img:first-of-type {
+  width: 142px;
+  border-radius: 50%;
+}
+.card img:last-of-type {
+  margin: 0 25px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.card img:last-of-type:hover {
+  background-color: #e64980;
+}
+.card .btn {
+  margin: 50px auto;
+  text-decoration: none;
+  color: #e64980;
+  background-color: #fff;
+  border-radius: 40px;
+  padding: 10px 30px;
+}/*# sourceMappingURL=card.css.map */
